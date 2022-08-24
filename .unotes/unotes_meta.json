@@ -1,0 +1,109 @@
+{
+  "name": "",
+  "isOrdered": true,
+  "folders": {
+    "admin": {
+      "name": "admin",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "assets": {
+      "name": "assets",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "blog": {
+      "name": "blog",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "build": {
+      "name": "build",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "categories": {
+      "name": "categories",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "gallery": {
+      "name": "gallery",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "nginx": {
+      "name": "nginx",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "screenshots": {
+      "name": "screenshots",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "_authors": {
+      "name": "_authors",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "_data": {
+      "name": "_data",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "_includes": {
+      "name": "_includes",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "_layouts": {
+      "name": "_layouts",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "_posts": {
+      "name": "_posts",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "_products": {
+      "name": "_products",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "_sass": {
+      "name": "_sass",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    }
+  },
+  "files": {
+    "404": 1,
+    "about": 0,
+    "CODE_OF_CONDUCT": 2,
+    "contact": 3,
+    "CONTRIBUTING": 4,
+    "install": 5,
+    "README": 6,
+    "SECURITY": 7,
+    "shop": 8,
+    "sponsors": 9,
+    "styleguide": 10
+  }
+}
