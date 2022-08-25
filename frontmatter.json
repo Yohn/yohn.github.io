@@ -7,41 +7,109 @@
       "previewPath": null,
       "fields": [
         {
-          "title": "Title",
-          "name": "title",
+          "title": "name",
+          "name": "name",
           "type": "string"
         },
         {
-          "title": "Description",
-          "name": "description",
+          "title": "username",
+          "name": "username",
           "type": "string"
         },
         {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
+          "title": "bio",
+          "name": "bio",
+          "type": "string"
         },
         {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
+          "title": "site",
+          "name": "site",
+          "type": "string"
         },
         {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
+          "title": "avatar",
+          "name": "avatar",
+          "type": "string"
         },
         {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags"
+          "title": "email",
+          "name": "email",
+          "type": "string"
         },
         {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
+          "title": "social",
+          "name": "social",
+          "type": "block",
+          "fields": [
+            {
+              "title": "0",
+              "name": "0",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "title",
+                  "name": "title",
+                  "type": "string"
+                },
+                {
+                  "title": "url",
+                  "name": "url",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "1",
+              "name": "1",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "title",
+                  "name": "title",
+                  "type": "string"
+                },
+                {
+                  "title": "url",
+                  "name": "url",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "2",
+              "name": "2",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "title",
+                  "name": "title",
+                  "type": "string"
+                },
+                {
+                  "title": "url",
+                  "name": "url",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "3",
+              "name": "3",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "title",
+                  "name": "title",
+                  "type": "string"
+                },
+                {
+                  "title": "url",
+                  "name": "url",
+                  "type": "string"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

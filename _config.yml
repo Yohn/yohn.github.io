@@ -85,18 +85,18 @@ facebook_username: iYohn
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
 # disqus_shortname: sujay-kundu
-# hyvor_talk_website_id: 476
-giscus_repo: Yohn/yohn.github.io
-giscus_repo_id: R_kgDOH3yzkA
-giscus_category: Announcements
-giscus_category_id: DIC_kwDOH3yzkM4CRBWC
-giscus_mapping: pathname
-giscus_strict: 0
-giscus_reactions_enabled: 1
-giscus_emit_metadata: 0
-giscus_input_position: top
-giscus_theme: preferred_color_scheme #https://giscus.app/themes/custom_example.css
-giscus_lang: en
+hyvor_talk_website_id: 476
+#giscus_repo: Yohn/yohn.github.io
+#giscus_repo_id: R_kgDOH3yzkA
+#giscus_category: Announcements
+#giscus_category_id: DIC_kwDOH3yzkM4CRBWC
+#giscus_mapping: pathname
+#giscus_strict: 0
+#giscus_reactions_enabled: 1
+#giscus_emit_metadata: 0
+#giscus_input_position: top
+#giscus_theme: preferred_color_scheme #https://giscus.app/themes/custom_example.css
+#giscus_lang: en
 
 # wakatime username (coding activity)
 wakatime_username: Yohn
@@ -128,12 +128,12 @@ per_page: 4
 paginate_path: "/blog/page/:num/"
 
 # minify
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: ['development']
+#compress_html:
+#  clippings: all
+#  comments: ["<!-- ", " -->"]
+#  endings: all
+#  ignore:
+#    envs: ['development']
 
 # Archives
 # jekyll-archives:
