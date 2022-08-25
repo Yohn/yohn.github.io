@@ -2,32 +2,10 @@
 	"frontMatter.preview.host": "http://localhost:4000/#/",
 	"frontMatter.framework.startCommand": "bundle exec jekyll serve --watch",
 	"frontMatter.content.autoUpdateDate": false,
-	"frontMatter.data.types": ["yaml", "md", "html"],
-	"frontMatter.content.pageFolders": [
-    {
-      "title": "IMGs",
-      "path": "[[workspace]]/assets/img"
-    },
-    {
-      "title": "Includes",
-      "path": "[[workspace]]/_includes"
-    },
-    {
-      "title": "Authors",
-      "path": "[[workspace]]/_authors"
-    },
-    {
-      "title": "Posts",
-      "path": "[[workspace]]/_posts"
-    },
-		{
-			"title": "Products",
-			"path": "[[workspace]]/_products"
-		},
-		{
-			"title": "SASS",
-			"path": "[[workspace]]/_sass"
-		}
+	"frontMatter.data.types": [
+		"yaml",
+		"md",
+		"html"
 	],
 	"cSpell.ignoreWords": [
 		"giscus",

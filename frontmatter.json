@@ -118,7 +118,7 @@
   "frontMatter.content.publicFolder": "assets",
   "frontMatter.content.pageFolders": [
     {
-      "title": "img",
+      "title": "IMGs",
       "path": "[[workspace]]/assets/img"
     },
     {
@@ -132,6 +132,18 @@
     {
       "title": "Posts",
       "path": "[[workspace]]/_posts"
+    },
+    {
+      "title": "Products",
+      "path": "[[workspace]]/_products"
+    },
+    {
+      "title": "SASS",
+      "path": "[[workspace]]/_sass"
+    },
+    {
+      "title": "Assets Images",
+      "path": "[[workspace]]/assets/img/authors"
     }
   ],
   "frontMatter.taxonomy.tags": [
