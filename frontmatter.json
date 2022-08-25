@@ -153,5 +153,10 @@
     "l",
     "y"
   ],
+	"frontMatter.data.files": [
+		"_data\\galleries\\mountains.yml",
+		"_data\\galleries\\overview.yml",
+		"_data\\authors.yml"
+	],
   "frontMatter.taxonomy.categories": []
 }
