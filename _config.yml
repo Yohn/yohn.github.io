@@ -3,7 +3,7 @@ subtitle: John Brittain III aka Yohn's Writings
 description: >- # this means to ignore newlines until "url:"
   Random bits of information that comes and goes from inside my mind.
 
-url: "https://yohn.githib.io" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "/" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -14,12 +14,12 @@ urls:
       url: /about
     - text: Blog
       url: /blog
-    #- text: Gallery
-    #  url: /gallery
-    #- text: Shop
-    #  url : /shop
-    #- text: Contact
-    #  url : /contact
+    - text: Gallery
+      url: /gallery
+    - text: Shop
+      url : /shop
+    - text: Contact
+      url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
@@ -35,17 +35,17 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
+            - company_name: Visual Impressions
               company_logo: google.png
-              company_url: https://google.com
+              company_url: https://visualimpressions.net
               designation: Software Engineer
-              description: Worked on various Google Products
+              description: Custom Control Panel for Digital Menuboards
               visibility: true
-            - company_name: Microsoft
+            - company_name: Skem9
               company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+              company_url: https://Skem9.com
+              designation: CEO
+              description: Built a custom social network based around layout and image creators in the myspace days.
               visibility: true
 
 # Education

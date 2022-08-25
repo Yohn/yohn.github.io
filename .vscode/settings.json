@@ -1,7 +1,7 @@
 {
 	"frontMatter.preview.host": "http://localhost:4000/#/",
 	"frontMatter.framework.startCommand": "bundle exec jekyll serve --watch",
-	"frontMatter.content.autoUpdateDate": true,
+	"frontMatter.content.autoUpdateDate": false,
 	"frontMatter.data.types": ["yaml", "md", "html"],
 	"frontMatter.content.pageFolders": [
     {

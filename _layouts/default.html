@@ -1,9 +1,9 @@
 ---
 layout: compress
-lastmod: 2022-08-25T01:08:31.098Z
+lastmod: 2022-08-25T01:21:38.789Z
 ---
 
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: " en " }}">
 {%- include head.html -%}
 <body>
@@ -11,6 +11,9 @@ lastmod: 2022-08-25T01:08:31.098Z
         <div class="main-container">
             {{ content }}
         </div>
+         <div class="col-lg-12" id="newsletter_footer">
+               {%- include blog_newsletter.html -%}
+         </div>
         {%- include footer.html -%}
      <script>
             var options = {
