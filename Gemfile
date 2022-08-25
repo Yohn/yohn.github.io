@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-#gem 'jekyll', '~> 4.2.2', '>= 4.1.1'
+gem 'jekyll', '~> 4.2.2', '>= 4.1.1'
 gem 'bundler', '~> 2.3.15'
 gem 'faraday-retry'
 gem 'backports', '~> 3.23'
@@ -13,7 +13,7 @@ gem 'puma'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "ggem install jekyll-webpithub-pages", group: :jekyll_plugins
+# gem "ggem install jekyll-webpithub-pages", group: :jekyll_plugins
 
 # Plugins
 group :jekyll_plugins do
