@@ -132,6 +132,84 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Blog Post",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "filename",
+          "name": "filename",
+          "type": "string"
+        },
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "summary",
+          "name": "summary",
+          "type": "string"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "category",
+          "name": "category",
+          "type": "categories"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "fields",
+          "fields": []
+        },
+        {
+          "title": "thumbnail",
+          "name": "thumbnail",
+          "type": "string"
+        },
+        {
+          "title": "keywords",
+          "name": "keywords",
+          "type": "string"
+        },
+        {
+          "title": "usemathjax",
+          "name": "usemathjax",
+          "type": "datetime"
+        },
+        {
+          "title": "permalink",
+          "name": "permalink",
+          "type": "string"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "datetime"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "default": "Blog Post",
+          "hidden": true
+        }
+      ]
     }
   ],
   "frontMatter.framework.id": "jekyll",
