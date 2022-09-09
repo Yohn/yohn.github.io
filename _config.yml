@@ -1,5 +1,5 @@
 title: Yohn
-subtitle: John Brittain III aka Yohn's Writings
+subtitle: John Brittain III aka Yohn's Ramblings
 description: >- # this means to ignore newlines until "url:"
   Random bits of information that comes and goes from inside my mind.
 
@@ -191,7 +191,7 @@ jekyll_admin:
 # The values here represent the defaults if nothing is set
 webp:
   enabled: true
-  
+
   # The quality of the webp conversion 0 to 100 (where 100 is least lossy)
   quality: 75
 
@@ -205,7 +205,7 @@ webp:
   # add ".gif" to the format list to generate webp for animated gifs as well
   formats: [".jpeg", ".jpg", ".png", ".tiff"]
 
-  # File extensions for animated gif files 
+  # File extensions for animated gif files
   gifs: [".gif"]
 
   # Set to true to always regenerate existing webp files
