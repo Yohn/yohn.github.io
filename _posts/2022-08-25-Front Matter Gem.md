@@ -9,6 +9,7 @@ category:
   - again
 tags: []
 thumbnail: /assets/img/posts/code.jpg
+preview: /assets/img/posts/code.jpg
 keywords: some keyword, separated with, commas, multi categories and tags
 usemathjax: false
 permalink: /blog/2022-08-25-fancy-title/
