@@ -1,12 +1,23 @@
 # Add Authors here
+yohn:
+  name: Yohn
+  username: Yohn
+  site: https://yohn.githib.io/
+  avatar: yohn.jpg
+  bio: "The only person who never makes a mistake is someone who does nothing."
+  email: yoyohns@proton.me
+  social:
+      - title: "github"
+        url: "https://github.com/Yohn"
+
 johndoe:
-   name: John Doe
-   username: johndoe
-   site: http://johndoe.com
-   avatar: johndoe.png
-   bio: "Hi I a John, a Web Developer and Designer."
-   email: mail@johndoe.com
-   social:
+  name: John Doe
+  username: johndoe
+  site: http://johndoe.com
+  avatar: johndoe.png
+  bio: "Hi I a John, a Web Developer and Designer."
+  email: mail@johndoe.com
+  social:
       - title: "github"
         url: "https://github.com/johndoe"
       - title: "linkedin"
@@ -31,13 +42,13 @@ johndoe:
         url: "https://flickr.com/johndoe"
 
 xplor4r:
-   name: Sujay kundu
-   username: xplor4r
-   site: https://sujaykundu.com
-   avatar: xplor4r.png
-   bio: "Full Stack Web Developer, based in Bangalore, India"
-   email: mail@sujaykundu.com
-   social:
+  name: Sujay kundu
+  username: xplor4r
+  site: https://sujaykundu.com
+  avatar: xplor4r.png
+  bio: "Full Stack Web Developer, based in Bangalore, India"
+  email: mail@sujaykundu.com
+  social:
       - title: "github"
         url: "https://github.com/sujaykundu777"
       - title: "linkedin"
