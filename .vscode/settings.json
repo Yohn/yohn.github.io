@@ -47,5 +47,5 @@
 		"wakatime",
 		"webfonts"
 	],
-	"frontMatter.dashboard.openOnStart": false,
+	"frontMatter.dashboard.openOnStart": true,
 }
