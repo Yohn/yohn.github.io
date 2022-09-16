@@ -36,13 +36,13 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 # Experiences
 author_work_experiences:
             - company_name: Visual Impressions
-              company_logo: google.png
+              company_logo: VI_Logo_Only.png.png
               company_url: https://visualimpressions.net
               designation: Software Engineer
               description: Custom Control Panel for Digital Menuboards
               visibility: true
             - company_name: Skem9
-              company_logo: microsoft.png
+              company_logo: skem9-logo-1.svg.svg
               company_url: https://Skem9.com
               designation: CEO
               description: Built a custom social network based around layout and image creators in the myspace days.
