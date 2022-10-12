@@ -7,6 +7,15 @@
     sizes:
     - thumb/fire6.webp
     thumbnail: thumb/fire6.webp
+-
+  title: Cable
+  directory: cable
+  preview:
+    filename: cable2.webp
+    original: thumb/cable2.webp
+    sizes:
+    - thumb/cable2.webp
+    thumbnail: thumb/cable2.webp
 
 
 #  title: Mountains
