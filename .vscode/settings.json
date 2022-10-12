@@ -1,51 +1,6 @@
 {
-	"frontMatter.preview.host": "http://localhost:4000/#/",
-	"frontMatter.framework.startCommand": "bundle exec jekyll serve --watch",
-	"frontMatter.content.autoUpdateDate": false,
-	"frontMatter.data.types": [
-		"yaml",
-		"md",
-		"html"
-	],
-	"cSpell.ignoreWords": [
-		"giscus",
-		"sujaykundu"
-	],
-	"cSpell.words": [
-		"behance",
-		"CRBWC",
-		"crossorigin",
-		"datafiles",
-		"desandro",
-		"devlopr",
-		"Devs",
-		"disqus",
-		"Disqus",
-		"dribbble",
-		"flickr",
-		"fontawesome",
-		"formspree",
-		"formspress",
-		"gamershub",
-		"getform",
-		"ghosthunter",
-		"hyvor",
-		"Hyvor",
-		"icono",
-		"imagesloaded",
-		"johndoe",
-		"jquery",
-		"kundu",
-		"lightgallery",
-		"mailchimp",
-		"mousewheel",
-		"nanobar",
-		"olvy",
-		"staticfiles",
-		"styleguide",
-		"sujay",
-		"wakatime",
-		"webfonts"
-	],
-	"frontMatter.dashboard.openOnStart": true,
+"isGitignoreExtActive": true,
+"cSpell.words": [
+	"webp"
+],
 }

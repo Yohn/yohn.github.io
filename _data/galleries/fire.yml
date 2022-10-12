@@ -1,0 +1,65 @@
+title: Poi - Me Fire Dancing
+picture_path: fire
+directory: fire
+preview:
+  filename: fire6.webp
+  original: thumb/fire6.webp
+  sizes:
+  - thumb/fire6.webp
+  thumbnail: thumb/fire6.webp
+pictures:
+- filename: fire1
+  original: fire1.webp
+  sizes:
+  - fire1.webp
+  thumbnail: thumb/fire.webp
+- filename: fire2
+  original: fire2.webp
+  sizes:
+  - fire2.webp
+  thumbnail: thumb/fire3.webp
+- filename: fire3
+  original: fire3.webp
+  sizes:
+  - fire3.webp
+  thumbnail: thumb/fire3.webp
+- filename: fire4
+  original: fire4.webp
+  sizes:
+  - fire4.webp
+  thumbnail: thumb/fire.webp
+- filename: fire5
+  original: fire5.webp
+  sizes:
+  - fire5.webp
+  thumbnail: thumb/fire5.webp
+- filename: fire6
+  original: fire6.webp
+  sizes:
+  - fire6.webp
+  thumbnail: thumb/fire6.webp
+
+###############################
+#picture_path: mountains
+#preview:
+#  filename: 1
+#  original: 1.jpg
+#  sizes:
+#  - 1.jpg
+#  thumbnail: 1-thumbnail.jpg
+#pictures:
+#- filename: 1
+#  original: 1.jpg
+#  sizes:
+#  - 1.jpg
+#  thumbnail: 1-thumbnail.jpg
+#- filename: 2
+#  original: 2.jpg
+#  sizes:
+#  - 2.jpg
+#  thumbnail: 2-thumbnail.jpg
+#- filename: 3
+#  original: 3.jpg
+#  sizes:
+#  - 3.jpg
+#  thumbnail: 3-thumbnail.jpg

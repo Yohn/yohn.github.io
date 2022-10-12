@@ -1,9 +1,19 @@
 -
-  title: Mountains
-  directory: mountains
+  title: Poi - Me Fire Dancing
+  directory: fire
   preview:
-    filename: 1.jpg
-    original: 1-thumbnail.jpg
+    filename: fire6.webp
+    original: thumb/fire6.webp
     sizes:
-    - 1-thumbnail.jpg
-    thumbnail: 1-thumbnail.jpg
+    - thumb/fire6.webp
+    thumbnail: thumb/fire6.webp
+
+
+#  title: Mountains
+#  directory: mountains
+#  preview:
+#    filename: 1.jpg
+#    original: 1-thumbnail.jpg
+#    sizes:
+#    - 1-thumbnail.jpg
+#    thumbnail: 1-thumbnail.jpg
