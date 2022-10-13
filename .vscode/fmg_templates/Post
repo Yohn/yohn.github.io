@@ -1,0 +1,15 @@
+---
+layout: post
+filename: %yyyy%-%mm%-%dd%
+title:  "%filename%"
+summary: "Short Description"
+author: Yohn
+date: '%yyyy%-%mm%-%dd% %hh%:%ii%'
+category: ['sample_category', 'again']
+tags: jekyll
+thumbnail: /assets/img/posts/code.jpg
+preview: /assets/img/posts/code.jpg
+keywords: some keyword, separated with, commas, multi categories and tags
+usemathjax: false
+permalink: /blog/urlhere/
+---

@@ -1,10 +1,10 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
-description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+title: Yohn
+subtitle: John Brittain III aka Yohn's Ramblings
+description: >- # this means to ignore newlines until "url:"
+  Random bits of information that comes and goes from inside my mind.
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
@@ -16,36 +16,36 @@ urls:
       url: /blog
     - text: Gallery
       url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
+    #- text: Shop
+    #  url : /shop
+    #- text: Contact
+    #  url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author_logo: yohns-profile.jpg
+author: Yohn
+author_bio: Hi, my name is Yohn. I built this site using devlopr-jekyll :D
+author_email: "jb@jw3b.com"
+author_location: NC, USA
+author_website_url: "https://yohn.github.io"
+typewrite-text: Random bits of information that comes and goes from inside my mind.
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
+            - company_name: Visual Impressions
+              company_logo: VI_Logo_Only.png
+              company_url: https://visualimpressions.net
               designation: Software Engineer
-              description: Worked on various Google Products
+              description: Custom Control Panel for Digital Menuboards
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Skem9
+              company_logo: skem9-logo-1.svg
+              company_url: https://Skem9.com
+              designation: CEO
+              description: Built a custom social network based around layout and image creators in the myspace days.
               visibility: true
 
 # Education
@@ -55,7 +55,7 @@ author_education_details:
                 college_url: https://mit.org
                 college_degree: CS Engineer
                 description: Bachelor of Technology
-                visibility: true
+                visibility: false
 
 # Projects
 author_project_details:
@@ -71,31 +71,42 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+#twitter_username: johndoe
+github_username:  Yohn
+facebook_username: iYohn
+#linkedin_username: johndoe
+#behance_username: johndoe
+#instagram_username: johndoe
+#medium_username: johndoe
+#telegram_username: johndoe
+#dribbble_username: johndoe
+#flickr_username: johndoe
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
 # disqus_shortname: sujay-kundu
-hyvor_talk_website_id: 476
+#hyvor_talk_website_id: 476
+giscus_repo: Yohn/yohn.github.io
+giscus_repo_id: R_kgDOH3yzkA
+giscus_category: Announcements
+giscus_category_id: DIC_kwDOH3yzkM4CRBWC
+giscus_mapping: pathname
+giscus_strict: 0
+giscus_reactions_enabled: 1
+giscus_emit_metadata: 0
+giscus_input_position: top
+giscus_theme: preferred_color_scheme #https://giscus.app/themes/custom_example.css
+giscus_lang: en
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+wakatime_username: Yohn
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+#mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+#formspree_email: johndoe@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
 olvy_organization: devlopr
@@ -108,8 +119,8 @@ permalink: pretty
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
-show_author_education_details: true
-show_author_project_details: true
+show_author_education_details: false
+show_author_project_details: false
 
 # pagination of posts
 paginate: 4
@@ -117,12 +128,12 @@ per_page: 4
 paginate_path: "/blog/page/:num/"
 
 # minify
-# compress_html:
-#   clippings: all
-#   comments: ["<!-- ", " -->"]
-#   endings: all
-#   ignore:
-#     envs: ['development']
+#compress_html:
+#  clippings: all
+#  comments: ["<!-- ", " -->"]
+#  endings: all
+#  ignore:
+#    envs: ['development']
 
 # Archives
 # jekyll-archives:
@@ -175,6 +186,44 @@ jekyll_admin:
   #   - configuration
   homepage: "posts"
 
+############################################################
+# Site configuration for the WebP Generator Plugin
+# The values here represent the defaults if nothing is set
+webp:
+  enabled: true
+
+  # The quality of the webp conversion 0 to 100 (where 100 is least lossy)
+  quality: 75
+
+  # List of directories containing images to optimize, nested directories will only be checked if `nested` is true
+  # By default the generator will search for a folder called `/img` under the site root and process all jpg, png and tiff image files found there.
+  img_dir: ["/screenshots", "/assets/img", "/assets/authors", "/assets/gallery", "/assets/posts", "/assets/products"]
+
+  # Whether to search in nested directories or not
+  nested: true
+
+  # add ".gif" to the format list to generate webp for animated gifs as well
+  formats: [".jpeg", ".jpg", ".png", ".tiff"]
+
+  # File extensions for animated gif files
+  gifs: [".gif"]
+
+  # Set to true to always regenerate existing webp files
+  regenerate: false
+
+  # Local path to the WebP utilities to use (relative or absolute)
+  # Omit or leave as nil to use the utilities shipped with the gem, override only to use your local install
+  # Eg : "/usr/local/bin/cwebp"
+  webp_path: nil
+
+  # List of files or directories to exclude
+  # e.g. custom or hand generated webp conversion files
+  exclude: []
+
+  # append '.webp' to filename after original extension rather than replacing it.
+  # Default transforms `image.png` to `image.webp`, while changing to true transforms `image.png` to `image.png.webp`
+  append_ext: false
+############################################################
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,0 +1,8 @@
+---
+layout: product
+identifier: url-friendly-url
+name: Product Name
+price: 50
+image: /assets/img/products/product1.jpg
+filename: %dir0%-%filename%
+---

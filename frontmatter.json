@@ -1,0 +1,267 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "name",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "title": "username",
+          "name": "username",
+          "type": "string"
+        },
+        {
+          "title": "bio",
+          "name": "bio",
+          "type": "string"
+        },
+        {
+          "title": "site",
+          "name": "site",
+          "type": "string"
+        },
+        {
+          "title": "avatar",
+          "name": "avatar",
+          "type": "string"
+        },
+        {
+          "title": "email",
+          "name": "email",
+          "type": "string"
+        },
+        {
+          "title": "social",
+          "name": "social",
+          "type": "block",
+          "fields": [
+            {
+              "title": "0",
+              "name": "0",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "title",
+                  "name": "title",
+                  "type": "string"
+                },
+                {
+                  "title": "url",
+                  "name": "url",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "1",
+              "name": "1",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "title",
+                  "name": "title",
+                  "type": "string"
+                },
+                {
+                  "title": "url",
+                  "name": "url",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "2",
+              "name": "2",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "title",
+                  "name": "title",
+                  "type": "string"
+                },
+                {
+                  "title": "url",
+                  "name": "url",
+                  "type": "string"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blog Post",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "filename",
+          "name": "filename",
+          "type": "string"
+        },
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "summary",
+          "name": "summary",
+          "type": "string"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "category",
+          "name": "category",
+          "type": "categories"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "fields",
+          "fields": []
+        },
+        {
+          "title": "thumbnail",
+          "name": "thumbnail",
+          "type": "string"
+        },
+        {
+          "title": "keywords",
+          "name": "keywords",
+          "type": "string"
+        },
+        {
+          "title": "usemathjax",
+          "name": "usemathjax",
+          "type": "datetime"
+        },
+        {
+          "title": "permalink",
+          "name": "permalink",
+          "type": "string"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "datetime"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "default": "Blog Post",
+          "hidden": true
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "jekyll",
+  "frontMatter.content.publicFolder": "assets",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "IMGs",
+      "path": "[[workspace]]/assets/img"
+    },
+    {
+      "title": "Includes",
+      "path": "[[workspace]]/_includes"
+    },
+    {
+      "title": "Authors",
+      "path": "[[workspace]]/_authors"
+    },
+    {
+      "title": "Posts",
+      "path": "[[workspace]]/_posts"
+    },
+    {
+      "title": "Products",
+      "path": "[[workspace]]/_products"
+    },
+    {
+      "title": "SASS",
+      "path": "[[workspace]]/_sass"
+    },
+    {
+      "title": "Assets Images",
+      "path": "[[workspace]]/assets/img/authors"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [
+    "e",
+    "j",
+    "k",
+    "l",
+    "y"
+  ],
+  "frontMatter.data.files": [
+    "_data\\galleries\\mountains.yml",
+    "_data\\galleries\\overview.yml",
+    "_data\\authors.yml"
+  ],
+  "frontMatter.taxonomy.categories": [],
+  "frontMatter.content.snippets": {
+    "Insert Image": {
+      "description": "Image with caption",
+      "body": "{{< caption \"[[&mediaUrl]]\" \"[[caption]]\" >}}",
+      "isMediaSnippet": true
+    }
+  }
+}
