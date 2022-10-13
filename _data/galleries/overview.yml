@@ -16,7 +16,15 @@
     sizes:
     - thumb/cable2.webp
     thumbnail: thumb/cable2.webp
-
+-
+  title: Eko
+  directory: eko
+  preview:
+    filename: IMG_9680.webp
+    original: thumb/IMG_9680.webp
+    sizes:
+    - thumb/IMG_9680.webp
+    thumbnail: thumb/IMG_9680.webp
 
 #  title: Mountains
 #  directory: mountains
