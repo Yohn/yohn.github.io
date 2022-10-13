@@ -4,9 +4,7 @@ title: Fancy Title
 summary: Short Description
 author: Yohn
 date: 2022-08-25 0:33
-category:
-  - Yohn
-  - again
+category: ['front matter', 'cms', 'control panel', 'vscode', 'yohn']
 tags: []
 thumbnail: /assets/img/posts/code.jpg
 preview: /assets/img/posts/code.jpg
