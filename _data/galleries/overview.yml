@@ -3,7 +3,7 @@
   directory: fire
   preview:
     filename: fire6.webp
-    original: thumb/fire6.webp
+    original: fire6.webp
     sizes:
     - thumb/fire6.webp
     thumbnail: thumb/fire6.webp
@@ -12,7 +12,7 @@
   directory: cable
   preview:
     filename: cable2.webp
-    original: thumb/cable2.webp
+    original: cable2.webp
     sizes:
     - thumb/cable2.webp
     thumbnail: thumb/cable2.webp
@@ -21,7 +21,7 @@
   directory: eko
   preview:
     filename: IMG_9680.webp
-    original: thumb/IMG_9680.webp
+    original: IMG_9680.webp
     sizes:
     - thumb/IMG_9680.webp
     thumbnail: thumb/IMG_9680.webp

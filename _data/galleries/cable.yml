@@ -3,18 +3,18 @@ picture_path: cable
 directory: cable
 preview:
   filename: cable
-  original: thumb/cable.webp
+  original: cable.webp
   sizes:
   - thumb/cable.webp
   thumbnail: thumb/cable.webp
 pictures:
 - filename: cable1
-  original: thumb/cable.webp
+  original: cable.webp
   sizes:
   - thumb/cable.webp
   thumbnail: thumb/cable.webp
 - filename: cable2
-  original: thumb/cable2.webp
+  original: cable2.webp
   sizes:
   - thumb/cable2.webp
   thumbnail: thumb/cable2.webp

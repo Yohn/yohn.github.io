@@ -3,7 +3,7 @@ picture_path: fire
 directory: fire
 preview:
   filename: fire6.webp
-  original: thumb/fire6.webp
+  original: fire6.webp
   sizes:
   - thumb/fire6.webp
   thumbnail: thumb/fire6.webp
