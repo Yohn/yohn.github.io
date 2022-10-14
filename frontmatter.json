@@ -130,6 +130,46 @@
               ]
             }
           ]
+        },
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "summary",
+          "name": "summary",
+          "type": "string"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "category",
+          "name": "category",
+          "type": "string"
+        },
+        {
+          "title": "thumbnail",
+          "name": "thumbnail",
+          "type": "string"
+        },
+        {
+          "title": "keywords",
+          "name": "keywords",
+          "type": "string"
+        },
+        {
+          "title": "usemathjax",
+          "name": "usemathjax",
+          "type": "datetime"
+        },
+        {
+          "title": "permalink",
+          "name": "permalink",
+          "type": "string"
         }
       ]
     },
@@ -232,6 +272,10 @@
       "path": "[[workspace]]/_posts"
     },
     {
+      "title": "Drafts",
+      "path": "[[workspace]]/_drafts"
+    },
+    {
       "title": "Products",
       "path": "[[workspace]]/_products"
     },
@@ -245,17 +289,42 @@
     }
   ],
   "frontMatter.taxonomy.tags": [
-    "e",
-    "j",
-    "k",
-    "l",
-    "y"
   ],
-  "frontMatter.data.files": [
-    "_data\\galleries\\mountains.yml",
-    "_data\\galleries\\overview.yml",
-    "_data\\authors.yml"
+	"frontMatter.data.folders": [
+    {
+			"id": "Galleries",
+			"path": "[[workspace]]/_data/galleries",
+			"schema": {
+				"type": "object",
+				"title": "Galleries",
+				"properties": {
+					"title": {
+						"type": "string",
+						"title": "Title"
+					},
+					"picture_path": {
+						"type": "path",
+						"title": "Picture Path"
+					},
+					"directory": {
+						"type": "path",
+						"title": "Same as Picture Path"
+					}
+				}
+			}
+		}
   ],
+	"frontMatter.data.files": [
+		{
+			"id": "overview",
+			"title": "Gallery Overview",
+			"file": "[[workspace]]/_data/galleries/overview.yml",
+			"type": "yaml",
+			"schema": {
+
+			}
+		}
+	],
   "frontMatter.taxonomy.categories": [],
   "frontMatter.content.snippets": {
     "Insert Image": {
